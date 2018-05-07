@@ -1,0 +1,36 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+#main {
+  display: inline-block;
+}
+
+#main > a {
+  display: inline-block;
+  width: 32%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#main > a .arrow {
+  display: none;
+}
+
+#main > a:hover .arrow {
+  display: inline;
+}
+
+#main #comic {
+  line-height: 1em;
+  font-size: 1.5em;
+  text-align: left;
+  
+}

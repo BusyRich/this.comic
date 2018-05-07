@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="creator.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+  </head>
+
+  <body>
+    <div id="menu">
+      <div id="tabs">
+        <div id="links">
+          <a href="#sprites">Sprites</a>
+          <a href="#bubble">Add Bubble</a>
+          <a href="#newSprite">Create Sprite</a>
+          <a href="#comicSettings">Settings</a>
+        </div>
+        <div id="sprites" class="content"></div>
+        <div id="newSprite" class="content">
+          <input type="text" id="spriteName"/>
+          <textarea id="spriteText"></textarea>
+          <button id="setSprite">Save</button>
+        </div>
+        <div id="bubble" class="content">
+          <textarea id="bubbleText"></textarea>
+          <select id="bubbleArrow">
+            <option value="l">Left</option>
+            <option value="t">Top</option>
+            <option value="r">Right</option>
+            <option value="b">Bottom</option>
+          </select>
+          <button id="addBubble">Add Bubble</button>
+        </div>
+        <div id="comicSettings" class="content">
+          <div id="comicJSON"></div>
+          <div id="spritesJSON"></div>
+        </di>
+      </div>
+    </div>
+    <div id="actions">
+      <button id="addPanel">Add Panel</button>
+      <button id="pageFeed">Page Feed</button>
+    </div>
+    <div id="panel"></div>
+    <div id="page"></div>
+    <script type="text/javascript" src="docs/lib/lib.min.js"></script>
+    <script type="text/javascript" src="creator.js"></script>
+  </body>
+</html>
+
