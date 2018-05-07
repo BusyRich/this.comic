@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title></title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <title>this.comic Creator</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="creator.css">
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
@@ -16,10 +14,10 @@
     <div id="menu">
       <div id="tabs">
         <div id="links">
-          <a href="#sprites">Sprites</a>
-          <a href="#bubble">Add Bubble</a>
-          <a href="#newSprite">Create Sprite</a>
-          <a href="#comicSettings">Settings</a>
+          <a href="#sprites"><i class="far fa-images"></i></a>
+          <a href="#bubble"><i class="far fa-comment-alt"></i></a>
+          <a href="#newSprite"><i class="fas fa-image"></i></a>
+          <a href="#comicSettings"><i class="fas fa-cogs"></i></a>
         </div>
         <div id="sprites" class="content"></div>
         <div id="newSprite" class="content">
@@ -38,6 +36,7 @@
           <button id="addBubble">Add Bubble</button>
         </div>
         <div id="comicSettings" class="content">
+          <input type="text" id="comicTitle"/>
           <div id="comicJSON"></div>
           <div id="spritesJSON"></div>
         </di>

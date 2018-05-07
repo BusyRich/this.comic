@@ -13,6 +13,7 @@ const Creator = {
     arrow: null
   },
   $settings: {
+    comicTitle: null,
     comicJSON: null,
     spritesJSON: null
   },
@@ -62,6 +63,7 @@ $(document).ready(function() {
   Creator.$bubbleFields.text = $('#bubbleText');
   Creator.$bubbleFields.arrow = $('#bubbleArrow');
 
+  Creator.$settings.comicTitle = $('#comicTitle');
   Creator.$settings.comicJSON = $('#comicJSON');
   Creator.$settings.spritesJSON = $('#spritesJSON');
 
@@ -106,6 +108,10 @@ $(document).ready(function() {
 
   $('#pageFeed').click(function() {
     Creator.comic.feed();
+  });
+
+  Creator.$settings.comicTitle.change(function() {
+    Creator.comic.name = $(this).val();
   });
 
   Creator.$tabLinks.get(0).click();

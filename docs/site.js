@@ -3,7 +3,7 @@ const site = {
   comic: null,
   $title: null,
   loadCurrentIndex() {
-    this.$title.textContent = comics[this.currentIndex].name;
+    this.$title.textContent = `#${comics.length - this.currentIndex} ${comics[this.currentIndex].name}`;
     this.comic.load(comics[this.currentIndex]);
     this.comic.render();
   },
