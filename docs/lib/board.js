@@ -20,7 +20,7 @@ Board.prototype.clear = function() {
       this.lines.push('');
     }
   } else {
-    this.lines = [];
+    this.lines = [''];
   }
 
   this.steps = [];
