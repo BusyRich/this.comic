@@ -1,4 +1,3 @@
 const comics = [
-  {"name":"Comic 985957","panels":[[["sprite","crazydino"],["sprite","cowboy"],["sprite","facebase"]],[["sprite","Thing"],["sprite","facebase"],["sprite","cowboy"]]]},
-  {"name":"Comic 709088","panels":[[["sprite","facebase"],["sprite","cowboy"],["sprite","cowboy"]],[["sprite","nerd"],["sprite","facebase"],["sprite","ninjabot"]],"feed",[["sprite","nerd"],["sprite","ninjabot"],["sprite","cowboy"]],[["sprite","crazydino"],["bubble",["RAWR!","I Say RAWR!"],"l"]]]}
+  {"name":"Programmer Art","panels":[[["sprite","cowboy"],["bubble",["Dan, you ever wonder","why we look like an 80s","computer designed us?"],"l"],["bubble",["Never noticed."],"r"],["sprite","nerd"]],"feed",[["sprite","cowboy"],["bubble",["I'm a programmer,","this is the best I","can do."],"t"],["sprite","nerd"]],"feed",[["sprite","cowboy"],["bubble",["Who was that?"],"l"],["bubble",["Who was who?"],"r"],["sprite","nerd"]]]}
 ];
