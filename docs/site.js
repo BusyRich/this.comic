@@ -7,13 +7,13 @@ const site = {
     this.comic.load(comics[this.currentIndex]);
     this.comic.render();
   },
-  next: function() {
+  prev: function() {
     if(this.currentIndex !== comics.length - 1) {
       this.currentIndex++;
       this.loadCurrentIndex();
     }
   },
-  prev: function() {
+  next: function() {
     if(this.currentIndex > 0) {
       this.currentIndex--;
       this.loadCurrentIndex();
